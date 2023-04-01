@@ -58,6 +58,4 @@ app.get('/auth/logout',logoutController)
 
 app.use((req, res) => res.render('notfound'));
 
-
-
 app.listen(4000, ()=>{ console.log('App listening on port 4000') }) 
